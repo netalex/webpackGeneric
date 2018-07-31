@@ -2,14 +2,17 @@
   "name": "webpackgeneric",
   "version": "1.0.0",
   "description": "Template di webpack con partials e un template engine, per produrre velocemente pagine web che siano riusabili in angular.io",
-  "main": "index.js",
-  "dependencies": {},
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
   "devDependencies": {
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
